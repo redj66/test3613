@@ -31,3 +31,26 @@ git config --global user.name redj66
 git config --global user.email redj66@naver.com
 git add
 git push aaaa master
+echo "# test3613" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/redj66/test3613.git
+git push -u origin master
+git remote add origin https://github.com/redj66/test3613.git
+git push -u origin master
+git del origin
+git ---help
+echo "# test3613" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add gittest https://github.com/redj66/test3613.git
+git push -u gittest master
+echo "# copy-self" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add reptest https://dev-devtools.ncloud.com/2955/copy-self.git
+git push -u reptest master
+git -v
