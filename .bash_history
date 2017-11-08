@@ -54,3 +54,13 @@ git commit -m "first commit"
 git remote add reptest https://dev-devtools.ncloud.com/2955/copy-self.git
 git push -u reptest master
 git -v
+echo "# testaaa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add reptest1 https://dev-devtools.ncloud.com/2955/testaaa.git
+git push -u reptest1 master
+git push reptest1 aaaab
+git push reptest1 aaaab
+git push reptest1 master
+git push reptest1 aaaab

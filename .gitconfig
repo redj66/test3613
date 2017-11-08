@@ -3,3 +3,8 @@
 	email = ncloud_test004@nhn.com
 [gui]
 	recentrepo = C:/Users/NAVER.AD000/test
+	stageuntracked = no
+	displayuntracked = false
+	encoding = utf-8
+[merge]
+	summary = true
